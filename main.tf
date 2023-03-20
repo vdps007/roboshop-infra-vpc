@@ -11,3 +11,7 @@ module "vpc" {
     private_subnets = each.value["private_subnets"]
 
 }
+
+output "vpc" {
+  value = local.db_subnet_ids
+}
