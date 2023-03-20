@@ -19,7 +19,7 @@ vpc = {
       }
 
 
-        private_subnet = {
+        private_subnets = {
             web-az1 = {
                 name              = "web-az1"
                 cidr_block        = "10.0.2.0/24"
